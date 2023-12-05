@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head> Contact Me </head>
+<title> Contact Me </title>
+<body>
+<h1> This is my Thrid page-Biography </h1>
+<nav style='background-color:yellow; text-align:center; font-weight:bold; font-size:150%'>
+<a href='P1_aboutme.html'> About Me </a> &nbsp &nbsp
+<a href='p2_Hobbies.html'> Hobbies</a> &nbsp  &nbsp
+<a href='p3_form.html'> Contact Me </a>&nbsp &nbsp
+<a href='p4_artwork.html'> Artwork </a>&nbsp &nbsp
+<a href='p5_filters.html'> Filtered Imags</a>
+</nav>  
+<style>
+a:link{ color:red; 
+text-decoration:none;} 
+
+a:Visted { color:brown; 
+text-decoration:none;} 
+
+a:hover{ color:blue; 
+text-decoration:underline;} 
+
+a:active{ color:pink; 
+text-decoration:underline;} 
+input[ type=submit] 
+{background-color:green; color:white; padding: 15px 40px}
+input[ type=reset] 
+{background-color:red; color:white; padding: 15px 40px}
+input[ type=text] 
+{background-color:lightgray;padding;15px;border-radius: 50px}
+
+
+
+
+</style>
+
+<h2> My Contact Form </h2>
+ <form>
+    <label style='font-style:bold'> First Name: <input type='text'placeholder='ex: John'
+	style='font-style:italic'> </label> 
+	<br> <br>
+	<label> Last Name: <input type='text'placeholder='ex: Smith'
+	style='font-style:italic'></label>
+	<br> <br>
+	
+	<h3> Best Way of Contact </h3>
+	<br>
+	<label> What do you prefer? </label> &nbsp &nbsp
+	  <select id='contactWay'>             <!-- Drop Down Menu selection -->
+	      <option value='cell'> Cell Phone </option>
+	      <option value='email'>Email </option>
+	      <option value='vCall'> Video Call </option>
+	       <option value='inPerson'>In Person Meeting</option>
+	  </select> <br><br>
+	
+	  <fieldset> <!-- Radio Type Manu -->
+	     <legend> Which is your're closest office? (choose one) </legend>
+		     <input type="radio" name="chioff" >
+			   <label> Chicago - Northside </label> <br> <br>
+			 <input type="radio" name="chioff" >
+			   <label> Chicago - Downtown </label> <br> <br> 
+			 <input type="radio" name="chioff" >
+			    <label> Chicago - Southside </label> <br> <br> 
+				
+				
+		</fieldset>
+		
+<h3> Add labels to ask user for Date of Brith </h3> <!-- month/date/year -->
+
+    <label> Date of Brith: </label>
+        <input type='date'>
+<br> <br>
+<!-- Make a label to take the date of vist from the user-->
+
+
+<h3> When do you want to come in ? </h3> <!-- month/date/year -->
+  
+     <label> Date of appointment: </label>
+	    <input type='date'>
+<br> <br>
+  <!-- input a color type-->
+    <label> Select your Favorite Color: </label>
+	     <input type='color'>
+<br> <br>
+	  <label> Select your Favorite number: </label>	
+		 <input type='number' min='0' max='100'>
+		 
+		 
+<br> <br> <!-- Attaching a file -->
+<label> Attach your Business Plan/Resume </label>
+    <input type='file'>  <br> <br> 	
+	
+	<br> <br>	
+<!-- creating a button -->		
+<input type='submit' value='submit'>		
+<input type='reset' Value='reset'>		
+
+</form>	
+		
+</body>
+</html>
